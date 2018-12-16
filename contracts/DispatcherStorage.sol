@@ -1,6 +1,6 @@
 pragma solidity ^0.4.8;
 
-import "zeppelin-solidity/contracts/ownership/Ownable.sol";
+import "./Ownable.sol";
 contract DispatcherStorage is Ownable {
   address public lib;
 
