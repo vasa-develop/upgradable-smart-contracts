@@ -4,7 +4,7 @@ import "./Ownable.sol";
 contract DispatcherStorage is Ownable {
   address public lib;
 
-  function DispatcherStorage(address newLib) public {
+  constructor(address newLib) public {
     replace(newLib);
   }
 
